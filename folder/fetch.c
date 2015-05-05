@@ -19,7 +19,7 @@ int main(int argc, char **argv)
 	exit(1);		
 	}
 
-	if (mysql_real_connect(con, "localhost","root","","drawing_app",0,NULL,0)==NULL)
+	if (mysql_real_connect(con, "localhost","root","newpwd","drawing_app",0,NULL,0)==NULL)
 	{
 	finish_with_error(con);
 	}
